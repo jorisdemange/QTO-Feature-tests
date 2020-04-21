@@ -1,12 +1,12 @@
-function open-left-menu() {
+function openLeftMenu() {
     document.getElementById("left-menu").classList.add("open")
 }
-function close-left-menu() {
+function closeLeftMenu() {
     document.getElementById("#left-menu").classList.remove("open");
 }
 
 window.addEventListener('mouseup', function(event) {
-    var left-menu = document.getElementById('#left-menu');
+    var leftMenu = document.getElementById('#left-menu');
     if(event.target != leftMenu && event.target.parentNode != leftMenu) {
         
     }
