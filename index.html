@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="left-menu.css">
@@ -28,19 +28,106 @@
 		</form>
 	</header>
 	<div class="body-container">
-		<aside class="left-menu">
+		<aside id="left-menu">
+			<!---->
 			<div class="menu-section">
-				<ion-icon name="apps-outline"></ion-icon>
+				<ion-icon name="grid-outline"></ion-icon>
 				<span>Start</span>
 			</div>
 			<ul class="topic-container">
+				<li>
+					<a href="#">Home</a>
+				</li>
 				<li>
 					<a href="#">Readme</a>
 				</li>
 				<li>
 					<a href="#">Concepts</a>
 				</li>
+				<li>
+					<a href="#">End-user guide</a>
+				</li>
 			</ul>
+			<!---->
+			<div class="menu-section">
+				<ion-icon name="list-outline"></ion-icon>
+				<span>Lists</span>
+			</div>
+			<ul class="topic-container">
+				<li>
+					<a href="#">Ideas</a>
+				</li>
+				<li>
+					<a href="#" class="active">Problems</a>
+				</li>
+				<li>
+					<a href="#">Questions</a>
+				</li>
+				<li>
+					<a href="#">Monthly issues</a>
+				</li>
+				<li>
+					<a href="#">Yearly issues</a>
+				</li>
+			</ul>
+			<!---->
+			<div class="menu-section">
+				<ion-icon name="key-outline"></ion-icon>
+				<span>Admin corner</span>
+			</div>
+			<ul class="topic-container">
+				<li>
+					<a href="#">List items doc</a>
+				</li>
+				<li>
+					<a href="#">View items doc</a>
+				</li>
+				<li>
+					<a href="#">List meta-columns</a>
+				</li>
+			</ul>
+			<!---->
+			<div class="menu-section">
+				<ion-icon name="reader-outline"></ion-icon>
+				<span>Documents</span>
+			</div>
+			<ul class="topic-container">
+				<li>
+					<a href="#">Concepts</a>
+				</li>
+				<li>
+					<a href="#">Userstories doc</a>
+				</li>
+				<li>
+					<a href="#">Requirements</a>
+				</li>
+				<li>
+					<a href="#">Features & functionalities</a>
+				</li>
+				<li>
+					<a href="#">Yearly issues</a>
+				</li>
+			</ul>
+			<!---->
+			<div class="menu-section">
+				<ion-icon name="server-outline"></ion-icon>
+				<span>Devops doc store</span>
+			</div>
+			<ul class="topic-container">
+				<li>
+					<a href="#">System guide</a>
+				</li>
+				<li>
+					<a href="#">Installation guide</a>
+				</li>
+				<li>
+					<a href="#">Maintenance & operations guide</a>
+				</li>
+				<li>
+					<a href="#">Devops guide</a>
+				</li>
+			</ul>
+			<!---->
 		</aside>
 		<div class="dimmer"></div>
 		<div class="content-container">
@@ -123,6 +210,10 @@
 		</div>
 	</div>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+	<script src="script.js"></script>
+
 </body>
 </html>

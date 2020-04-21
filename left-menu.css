@@ -1,34 +1,44 @@
-.left-menu {
+#left-menu {
     position: fixed;
     flex-direction: column;
     flex-shrink: 0;
     box-sizing: border-box;
     width: 300px;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     background-color: var(--surface-color);
     transition-property: transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 5;
     }
-    .left-menu--open {
+    #left-menu--open {
         display: flex;
     }
-    .left-menu--opening {
+    #left-menu--opening {
         transform: translateX(0);
         transition-duration: 250ms;
     }
-    .left-menu--animate {
+    #left-menu--animate {
         transform: translateX(100%);
     }
 
-.left-menu a {
+#left-menu a {
+    color: hsl(0, 0%, 40%);
     display: block;
     text-decoration: none;
     cursor: pointer;
-}
+    }
+    #left-menu a:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+        color: hsl(0, 0%, 15%);
+    }
+    #left-menu a.active {
+        color: hsl(0, 0%, 15%);
+        font-weight: 600;
+    }
 
-.left-menu ul {
+#left-menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -36,20 +46,34 @@
 }
 
 .menu-section {
+    display: flex;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 12px;
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 600;
 }
+.menu-section ion-icon {
+    font-size: 24px;
+    margin-right: 12px;
+}
+
 ul.topic-container {
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     border-bottom: solid 1px var(--border-color);
     }
     .topic-container:last-of-type {
         border-bottom: none;
     }
 ul.topic-container li a {
-    padding: 12px 48px 24px 12px;
+    padding-top: 12px;   
+    padding-right: 48px;
+    padding-bottom: 12px;
+    padding-left: 60px;
+    font-size: 14px;
+    text-transform: capitalize;
 }
 .dimmer {
     display: block;

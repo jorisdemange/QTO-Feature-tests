@@ -23,7 +23,8 @@ li {
 }
 
 ion-icon {
-	font-size: 32px;
+	font-size: 24px;
+	margin-right: 12px;
 }
 
 .content-container {
