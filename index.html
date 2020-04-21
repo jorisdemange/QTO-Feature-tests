@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Problems - QTO</title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
@@ -15,7 +15,7 @@
 </head>
 <body>
 	<header>
-		<button>
+		<button id="left-menu-burger">
 			<ion-icon name="menu-outline"></ion-icon>
 		</button>
 		<a href="#" class="brand-logo">Logo placeholder</a>
@@ -28,13 +28,16 @@
 		</form>
 	</header>
 	<div class="body-container">
-		<aside id="left-menu">
+		<aside id="left-menu" class="left-menu">
 			<!---->
 			<div class="menu-section">
 				<ion-icon name="grid-outline"></ion-icon>
 				<span>Start</span>
 			</div>
 			<ul class="topic-container">
+				<li>
+					<a href="#" id="menuDebug" class="menuDebug"></a>
+				</li>
 				<li>
 					<a href="#">Home</a>
 				</li>
@@ -129,7 +132,7 @@
 			</ul>
 			<!---->
 		</aside>
-		<div class="dimmer"></div>
+		<div id="dimmer" class="dimmer"></div>
 		<div class="content-container">
 			<table>
 				<thead>

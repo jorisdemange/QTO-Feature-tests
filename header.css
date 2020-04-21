@@ -1,0 +1,17 @@
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 72px;
+	display: flex;
+	justify-content: flex-start;
+}
+form {
+	display: flex;
+}
+.brand-logo {
+	padding: 0 16px;
+}
+input::placeholder {
+	color: gray;
+}
