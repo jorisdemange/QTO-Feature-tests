@@ -31,4 +31,4 @@ document.addEventListener("click", (evt) => {
 	//Detects a click outside of the menu
 	document.getElementById("menuDebug").textContent = "Clicked outside the menu!";
 	closeMenu();
-})
+});
