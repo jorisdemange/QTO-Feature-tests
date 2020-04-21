@@ -19,13 +19,6 @@
 		transform: translateX(0);
 		transition-duration: 250ms;
 	}
-	.left-menu--opening {
-		transform: translateX(0);
-		transition-duration: 250ms;
-	}
-	.left-menu--animate {
-		transform: translateX(100%);
-	}
 
 .left-menu a {
 	color: hsl(0, 0%, 40%);
