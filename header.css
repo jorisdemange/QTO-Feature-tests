@@ -5,6 +5,8 @@ header {
 	height: 72px;
 	display: flex;
 	justify-content: flex-start;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(200, 200, 200, 0.5);
 }
 form {
 	display: flex;

@@ -2,6 +2,9 @@ var leftMenu = document.getElementById("left-menu");
 var dimmer = document.getElementById("dimmer");
 var leftMenuBurger = document.getElementById("left-menu-burger");
 
+var debugBurger = document.getElementById("debug-burger");
+var debugBurgerTxt = document.getElementById("debug-burger-txt");
+
 function openMenu() {
 	dimmer.classList.add("dimmer--open");
 	leftMenu.classList.add("left-menu--open");
@@ -14,6 +17,10 @@ function closeMenu() {
 
 // When menu is closed
 leftMenuBurger.addEventListener("click", openMenu());
+debugBurger.addEventListener("click", function() {
+	openMenu();
+	debugBurgerTxt.textContent = "Clicked on the burger!";
+});
 
 // When menu is open
 document.addEventListener("click", (evt) => {
@@ -24,6 +31,12 @@ document.addEventListener("click", (evt) => {
 			//Detects a click in the menu
 			document.getElementById("menuDebug").textContent = "Clicked in the menu!";
 			return;
+		}
+		if (targetElement == debugBurger) {
+			debugBurgerTxt.textContent = "Clicked on the debug!";
+			openMenu();
+			dimmer.classList.add("dimmer--open");
+			leftMenu.classList.add("left-menu--open");
 		}
 		targetElement = targetElement.parentNode;
 	} while (targetElement);
