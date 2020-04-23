@@ -19,130 +19,185 @@
 		<button id="left-menu-hamburger" onclick="openMenu">
 			<ion-icon name="menu-outline"></ion-icon>
 		</button>
-		<a href="#" class="brand-logo">Logo placeholder</a>
+		<a href="#" class="brand-logo">QTO</a>
 		<form class="search-bar">
 			<button class="search-submit">
 				<ion-icon name="search-outline"></ion-icon>
 			</button>
-			<input type="text" class="search-box" placeholder="Search...">
-			<ul class="search-results"></ul>
+			<input type="text" class="search-box" placeholder="Type in to search...">
 		</form>
 	</header>
 	<div class="body-container">
 		<aside id="left-menu" class="left-menu left-menu--open">
 			<!---->
-			<div class="menu-section">
-				<ion-icon name="grid-outline"></ion-icon>
-				<span>Start</span>
+			<div class="menu-section-wrap">
+				<div class="menu-section">
+					<ion-icon name="grid-outline"></ion-icon>
+					<span>Start</span>
+					<ion-icon name="chevron-down-outline" class="section-collapse"></ion-icon>
+				</div>
+				<ul class="topic-container">
+					<li>
+						<a href="#" id="menuDebug" class="menuDebug">Home</a>
+					</li>
+					<li>
+						<a href="#">Readme</a>
+					</li>
+					<li>
+						<a href="#">Concepts</a>
+					</li>
+					<li>
+						<a href="#">End-user guide</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="topic-container">
-				<li>
-					<a href="#" id="menuDebug" class="menuDebug">Home</a>
-				</li>
-				<li>
-					<a href="#">Readme</a>
-				</li>
-				<li>
-					<a href="#">Concepts</a>
-				</li>
-				<li>
-					<a href="#">End-user guide</a>
-				</li>
-			</ul>
 			<!---->
-			<div class="menu-section">
-				<ion-icon name="list-outline"></ion-icon>
-				<span>Lists</span>
+			<div class="menu-section-wrap">
+				<div class="menu-section">
+					<ion-icon name="list-outline"></ion-icon>
+					<span>Lists</span>
+					<ion-icon name="chevron-down-outline" class="section-collapse"></ion-icon>
+				</div>
+				<ul class="topic-container">
+					<li>
+						<a href="#">Ideas</a>
+					</li>
+					<li>
+						<a href="#" class="active">Problems</a>
+					</li>
+					<li>
+						<a href="#">Questions</a>
+					</li>
+					<li>
+						<a href="#">Monthly issues</a>
+					</li>
+					<li>
+						<a href="#">Yearly issues</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="topic-container">
-				<li>
-					<a href="#">Ideas</a>
-				</li>
-				<li>
-					<a href="#" class="active">Problems</a>
-				</li>
-				<li>
-					<a href="#">Questions</a>
-				</li>
-				<li>
-					<a href="#">Monthly issues</a>
-				</li>
-				<li>
-					<a href="#">Yearly issues</a>
-				</li>
-			</ul>
 			<!---->
-			<div class="menu-section">
-				<ion-icon name="key-outline"></ion-icon>
-				<span>Admin corner</span>
+			<div class="menu-section-wrap">
+				<div class="menu-section">
+					<ion-icon name="key-outline"></ion-icon>
+					<span>Admin corner</span>
+					<ion-icon name="chevron-down-outline" class="section-collapse"></ion-icon>
+				</div>
+				<ul class="topic-container">
+					<li>
+						<a href="#">List items doc</a>
+					</li>
+					<li>
+						<a href="#">View items doc</a>
+					</li>
+					<li>
+						<a href="#">List meta-columns</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="topic-container">
-				<li>
-					<a href="#">List items doc</a>
-				</li>
-				<li>
-					<a href="#">View items doc</a>
-				</li>
-				<li>
-					<a href="#">List meta-columns</a>
-				</li>
-			</ul>
 			<!---->
-			<div class="menu-section">
-				<ion-icon name="reader-outline"></ion-icon>
-				<span>Documents</span>
+			<div class="menu-section-wrap">
+				<div class="menu-section">
+					<ion-icon name="reader-outline"></ion-icon>
+					<span>Documents</span>
+					<ion-icon name="chevron-down-outline" class="section-collapse"></ion-icon>
+				</div>
+				<ul class="topic-container">
+					<li>
+						<a href="#">Concepts</a>
+					</li>
+					<li>
+						<a href="#">Userstories doc</a>
+					</li>
+					<li>
+						<a href="#">Requirements</a>
+					</li>
+					<li>
+						<a href="#">Features & functionalities</a>
+					</li>
+					<li>
+						<a href="#">Yearly issues</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="topic-container">
-				<li>
-					<a href="#">Concepts</a>
-				</li>
-				<li>
-					<a href="#">Userstories doc</a>
-				</li>
-				<li>
-					<a href="#">Requirements</a>
-				</li>
-				<li>
-					<a href="#">Features & functionalities</a>
-				</li>
-				<li>
-					<a href="#">Yearly issues</a>
-				</li>
-			</ul>
 			<!---->
-			<div class="menu-section">
-				<ion-icon name="server-outline"></ion-icon>
-				<span>Devops doc store</span>
+			<div class="menu-section-wrap">
+				<div class="menu-section">
+					<ion-icon name="server-outline"></ion-icon>
+					<span>Devops doc store</span>
+					<ion-icon name="chevron-down-outline" class="section-collapse"></ion-icon>
+				</div>
+				<ul class="topic-container">
+					<li>
+						<a href="#">System guide</a>
+					</li>
+					<li>
+						<a href="#">Installation guide</a>
+					</li>
+					<li>
+						<a href="#">Maintenance & operations guide</a>
+					</li>
+					<li>
+						<a href="#">Devops guide</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="topic-container">
-				<li>
-					<a href="#">System guide</a>
-				</li>
-				<li>
-					<a href="#">Installation guide</a>
-				</li>
-				<li>
-					<a href="#">Maintenance & operations guide</a>
-				</li>
-				<li>
-					<a href="#">Devops guide</a>
-				</li>
-			</ul>
 			<!---->
 		</aside>
 		<div id="dimmer" class="dimmer dimmer--open"></div>
 		<div class="content-container">
+			<h2>Problems</h2>
 			<table>
 				<thead>
 					<tr>
-						<th>Edit</th>
-						<th>prio</th>
-						<th>idea status</th>
-						<th>category</th>
-						<th>name</th>
-						<th id="debug-hamburger">Debug hamburger</th>
-						<th>solution</th>
-						<th>owner</th>
+						<th>
+							<div class="wrap">
+								Edit
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
+						<th>
+							<div class="wrap">
+								prio
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
+						<th>
+							<div class="wrap">
+								status
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+						</div>
+						</th>
+						<th>
+							<div class="wrap">
+								tags
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
+						<th class="filtered">
+							<div class="wrap">
+								name
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
+						<th id="debug-hamburger">
+							<div class="wrap">
+								Debug hamburger
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
+						<th>
+							<div class="wrap">
+								solution
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
+						<th>
+							<div class="wrap">
+								owner
+								<ion-icon name="filter-outline" class="table-filter"></ion-icon>
+							</div>
+						</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -150,11 +205,14 @@
 						<td>edit</td>
 						<td>1</td>
 						<td>03-wip</td>
-						<td>ui</td>
+						<td>
+							<span class="tag">ui</span>
+							<span class="tag">setup</span>
+						</td>
 						<td>BRAINSTORM > UI</td>
 						<td id="debug-hamburger-txt"></td>
 						<td>Solution goes here</td>
-						<td>jrs</td>
+						<td><ion-icon name="person-circle"></ion-icon>jrs</td>
 					</tr>
 					<tr>
 						<td>edit</td>
@@ -164,7 +222,7 @@
 						<td>BRAINSTORM > UI</td>
 						<td>Brainstorm how to improve the UI</td>
 						<td>Solution goes here</td>
-						<td>jrs</td>
+						<td><ion-icon name="person-circle"></ion-icon>jrs</td>
 					</tr>
 					<tr>
 						<td>edit</td>
@@ -174,7 +232,7 @@
 						<td>BRAINSTORM > UI</td>
 						<td>Brainstorm how to improve the UI</td>
 						<td>Solution goes here</td>
-						<td>jrs</td>
+						<td><ion-icon name="person-circle"></ion-icon>jrs</td>
 					</tr>
 					<tr>
 						<td>edit</td>
@@ -184,7 +242,7 @@
 						<td>BRAINSTORM > UI</td>
 						<td>Brainstorm how to improve the UI</td>
 						<td>Solution goes here</td>
-						<td>jrs</td>
+						<td><ion-icon name="person-circle"></ion-icon>jrs</td>
 					</tr>
 					<tr>
 						<td>edit</td>
@@ -194,7 +252,7 @@
 						<td>BRAINSTORM > UI</td>
 						<td>Brainstorm how to improve the UI</td>
 						<td>Solution goes here</td>
-						<td>jrs</td>
+						<td><ion-icon name="person-circle"></ion-icon>jrs</td>
 					</tr>
 					<tr>
 						<td>edit</td>
@@ -204,7 +262,7 @@
 						<td>BRAINSTORM > UI</td>
 						<td>Brainstorm how to improve the UI</td>
 						<td>Solution goes here</td>
-						<td>jrs</td>
+						<td><ion-icon name="person-circle"></ion-icon>jrs</td>
 					</tr>
 				</tbody>
 			</table>

@@ -3,10 +3,34 @@ This file defines the colors to use across the app
 ***/
 :root {
 	/*** MAIN COLORS ***/
-	--primary-color: hsl(265, 100%, 47%);
+	--primary-color: hsl(265, 100%, 50%);
+		--primary-color--90: hsl(265, 90%, 50%);
+		--primary-color--80: hsl(265, 80%, 50%);
+		--primary-color--70: hsl(265, 70%, 50%);
+		--primary-color--60: hsl(265, 60%, 50%);
+		--primary-color--50: hsl(265, 50%, 50%);
+		--primary-color--40: hsl(265, 40%, 80%);
+		--primary-color--30: hsl(265, 30%, 50%);
+		--primary-color--20: hsl(265, 20%, 50%);
+		--primary-color--10: hsl(265, 10%, 50%);
+		--primary-color--00: hsl(265, 0%, 50%);
 	--primary-color-var: hsl(258, 100%, 35%);
-	--secondary-color: 	hsl(174, 97%, 43%);
-	--secondary-color-var: hsl(180, 99%, 27%);
+	--secondary-color: 	hsl(174, 100%, 45%);
+		--secondary-color--90: 	hsl(174, 90%, 45%);
+		--secondary-color--80: 	hsl(174, 80%, 45%);
+		--secondary-color--70: 	hsl(174, 70%, 45%);
+		--secondary-color--60: 	hsl(174, 60%, 45%);
+		--secondary-color--50: 	hsl(174, 50%, 45%);
+		--secondary-color--40: 	hsl(174, 40%, 75%);
+		--secondary-color--30: 	hsl(174, 30%, 45%);
+		--secondary-color--20: 	hsl(174, 20%, 45%);
+		--secondary-color--10: 	hsl(174, 10%, 45%);
+		--secondary-color--00: 	hsl(174, 0%, 45%);
+	--secondary-color-var: hsl(180, 100%, 30%);
+	
+
+	--primary-gradient: linear-gradient(var(--primary-color) 0%, var(--primary-color-var) 100%);
+	--primary-gradient-90: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color-var) 100%);
 
 	/*** ACCENT COLORS ***/
 	--error-color: hsl(349, 100%, 35%);

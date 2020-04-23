@@ -16,7 +16,7 @@ function closeMenu() {
 }
 
 // Detects a click on the hamburger icon, Method 1
-leftMenuHamburger.addEventListener("click", openMenu());
+// leftMenuHamburger.addEventListener("click", openMenu());
 
 // Debug
 debugHamburger.addEventListener("click", function() {
