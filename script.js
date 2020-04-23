@@ -1,9 +1,9 @@
 var leftMenu = document.getElementById("left-menu");
 var dimmer = document.getElementById("dimmer");
-var leftMenuBurger = document.getElementById("left-menu-burger");
+var leftMenuHamburger = document.getElementById("left-menu-hamburger");
 
-var debugBurger = document.getElementById("debug-burger");
-var debugBurgerTxt = document.getElementById("debug-burger-txt");
+var debugHamburger = document.getElementById("debug-hamburger");
+var debugHamburgerTxt = document.getElementById("debug-hamburger-txt");
 
 function openMenu() {
 	dimmer.classList.add("dimmer--open");
@@ -16,12 +16,12 @@ function closeMenu() {
 }
 
 // Detects a click on the hamburger icon, Method 1
-leftMenuBurger.addEventListener("click", openMenu());
+leftMenuHamburger.addEventListener("click", openMenu());
 
 // Debug
-debugBurger.addEventListener("click", function() {
+debugHamburger.addEventListener("click", function() {
 	openMenu();
-	debugBurgerTxt.textContent = "Clicked on the burger!";
+	debugHamburgerTxt.textContent = "Clicked on the hamburger!";
 });
 
 // When menu is open
@@ -29,15 +29,16 @@ document.addEventListener("click", (evt) => {
 	let targetElement = evt.target; // Clicked element
 
 	do {
-		if (targetElement == debugBurger) {
-			// Detects a click on the hamburger icon, Method 2 
-			debugBurgerTxt.textContent = "Clicked on the debug";
+		if (targetElement == debugHamburger) {
+			// Detects a click on the debug hamburger
+			debugHamburgerTxt.textContent = "Clicked on the debug";
 			openMenu();
-			dimmer.classList.add("dimmer--open");
-			leftMenu.classList.add("left-menu--open");
+			//dimmer.classList.add("dimmer--open");
+			//leftMenu.classList.add("left-menu--open");
 
-		} else if (targetElement == leftMenuBurger) {
+		} else if (targetElement == leftMenuHamburger) {
 			// Detects a click on the hamburger icon, Method 2
+			debugHamburgerTxt.textContent = "Clicked on the hamburger";
 			openMenu()
 			
 		} else if (targetElement == leftMenu) {
