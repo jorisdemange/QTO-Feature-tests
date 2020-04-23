@@ -15,18 +15,20 @@ This file defines the colors to use across the app
 		--primary-color--10: hsl(265, 10%, 50%);
 		--primary-color--00: hsl(265, 0%, 50%);
 	--primary-color-var: hsl(258, 100%, 35%);
-	--secondary-color: 	hsl(174, 100%, 45%);
-		--secondary-color--90: 	hsl(174, 90%, 45%);
-		--secondary-color--80: 	hsl(174, 80%, 45%);
-		--secondary-color--70: 	hsl(174, 70%, 45%);
-		--secondary-color--60: 	hsl(174, 60%, 45%);
-		--secondary-color--50: 	hsl(174, 50%, 45%);
-		--secondary-color--40: 	hsl(174, 40%, 75%);
-		--secondary-color--30: 	hsl(174, 30%, 45%);
-		--secondary-color--20: 	hsl(174, 20%, 45%);
-		--secondary-color--10: 	hsl(174, 10%, 45%);
-		--secondary-color--00: 	hsl(174, 0%, 45%);
-	--secondary-color-var: hsl(180, 100%, 30%);
+	--secondary-color: hsl(187, 100%, 42%);
+		--secondary-color--100:	hsl(187, 71%, 82%); 
+	--third-color: 	hsl(174, 100%, 45%);
+		--third-color--90: 	hsl(174, 90%, 45%);
+		--third-color--80: 	hsl(174, 80%, 45%);
+		--third-color--70: 	hsl(174, 70%, 45%);
+		--third-color--60: 	hsl(174, 60%, 45%);
+		--third-color--50: 	hsl(174, 50%, 45%);
+		--third-color--40: 	hsl(174, 40%, 75%);
+		--third-color--30: 	hsl(174, 30%, 45%);
+		--third-color--20: 	hsl(174, 20%, 45%);
+		--third-color--10: 	hsl(174, 10%, 45%);
+		--third-color--00: 	hsl(174, 0%, 45%);
+	--third-color-var: hsl(180, 100%, 30%);
 	
 
 	--primary-gradient: linear-gradient(var(--primary-color) 0%, var(--primary-color-var) 100%);

@@ -111,7 +111,7 @@ span.tag {
 	display: inline-block;
 	margin: 2px;
 	padding: 4px 8px;
-	border-radius: 4px;
+	border-radius: 6px;
 	font-weight: 600;
 	}
 	span.tag:first-of-type {
@@ -127,6 +127,6 @@ span.tag:nth-child(1) {
 	background-color: var(--primary-color--40);
 }
 span.tag:nth-child(2) {
-	color: #00BCD4;
-	background-color: #B2EBF2;
+	color: var(--secondary-color);
+	background-color: var(--secondary-color--100);
 }
