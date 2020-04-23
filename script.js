@@ -34,10 +34,12 @@ document.addEventListener("click", (evt) => {
 			debugBurgerTxt.textContent = "Clicked on the debug";
 			openMenu();
 			dimmer.classList.add("dimmer--open");
-			leftMenu.classList.add("left-menu--open");		
+			leftMenu.classList.add("left-menu--open");
+
 		} else if (targetElement == leftMenuBurger) {
 			// Detects a click on the hamburger icon, Method 2
 			openMenu()
+			
 		} else if (targetElement == leftMenu) {
 			// Detects a click in the menu
 			document.getElementById("menuDebug").textContent = "Clicked in the menu";
