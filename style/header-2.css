@@ -10,6 +10,25 @@ header {
 	background-color: white;
 	box-shadow: 0 2px 4px rgba(200, 200, 200, 0.5);
 }
+header button {
+	width: 56px;
+	height: 100%;
+	border: 0;
+	background: none;
+	cursor: pointer;
+}
+button.size-24 {
+	width: 56px;
+	}
+	button.size-24 ion-icon {
+		font-size: 24px;
+	}
+button.size-32 {
+	width: 64px;
+	}
+	button.size-32 ion-icon {
+		font-size: 32px;
+	}
 form {
 	display: flex;
 }
@@ -28,18 +47,11 @@ form {
 input::placeholder {
 	color: gray;
 }
-#left-menu-hamburger {
-	width: 56px;
-	height: 100%;
-	border: 0;
-	background: none;
-	cursor: pointer;
-}
 
 .search-bar {
 	height: 46px;
 	padding-right: 16px;
-	margin-left: 32px;
+	margin: 0 32px;
 	border: 1px solid transparent;
 	border-radius: 8px;
 	background-color: hsl(0, 0%, 95%);
