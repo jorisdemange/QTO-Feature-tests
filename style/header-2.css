@@ -29,6 +29,11 @@ button.size-32 {
 	button.size-32 ion-icon {
 		font-size: 32px;
 	}
+	button.size-32 img {
+		width: 32px;
+		height: 32px;
+		object-fit: cover;
+	}
 form {
 	display: flex;
 }
@@ -86,3 +91,7 @@ input::placeholder {
 	.search-bar input:focus {
 		outline: none;
 	}
+
+header .gravatar {
+
+}
